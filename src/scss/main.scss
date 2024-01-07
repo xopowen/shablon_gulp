@@ -3,19 +3,6 @@
 @import "components/addidions/style_zeroing";
 @import "components/container";
 
-root{
-  --background-color-main:$white_color;
-  --font-color-main:$black_color;
-  --color-active_link:$color_active_link;
-  --font-size-main: $main_font_size ;
-}
-:root[theme='dark'] {
-  --background-color-main:$gray_color;
-  --font-color-main:$black_color;
-  --color-active_link: rgba(56, 110, 232, 0.2);
-  --font-size-main: $main_font_size ;
-}
-
 
 body{
   max-width: 1440px;
